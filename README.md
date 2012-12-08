@@ -40,13 +40,13 @@ Using [PIP](http://www.pip-installer.org).
 The repository will be checked out in a temporary folder, installed, and cleaned up:
 
 ```bash
-pip install git+https://github.com/mhulse/django-purr.git
+$ pip install git+https://github.com/mhulse/django-purr.git
 ```
 
 This can be combined with the -e flag, and Pip will perform the checkout in ./src/. You need to supply a name for the checkout folder by appending a hash to the repository URL:
 
 ```bash
-sudo pip install -e git+https://github.com/mhulse/django-purr.git#egg=django-purr
+$ sudo pip install -e git+https://github.com/mhulse/django-purr.git#egg=django-purr
 ```
 
 More info [here](http://www.pip-installer.org/en/latest/usage.html#version-control-systems).
