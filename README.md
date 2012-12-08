@@ -15,7 +15,7 @@
 ......................................
 ```
 
-### Testing a solution to read unlimited categories from a URL.
+### Testing a solution to read unlimited categories from a URI.
 
 ---
 
@@ -43,7 +43,7 @@ The repository will be checked out in a temporary folder, installed, and cleaned
 $ pip install git+https://github.com/mhulse/django-purr.git
 ```
 
-This can be combined with the -e flag, and Pip will perform the checkout in ./src/. You need to supply a name for the checkout folder by appending a hash to the repository URL:
+This can be combined with the `-e` flag, and Pip will perform the checkout in `./src/`. You need to supply a name for the checkout folder by appending a hash to the repository URL:
 
 ```bash
 $ sudo pip install -e git+https://github.com/mhulse/django-purr.git#egg=django-purr
@@ -75,7 +75,7 @@ urlpatterns = patterns('',
 
 #### EXAMPLES
 
-Given this url:
+Given this URI:
 
 ```html
 http://site.com/purr/business/delivery-only/italian/pizza/
