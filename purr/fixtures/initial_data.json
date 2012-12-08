@@ -1,0 +1,158 @@
+[
+    {
+        "pk": 4, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Delivery only", 
+            "parent": 1, 
+            "created": "2012-12-07 20:16:00", 
+            "notes": "", 
+            "modified": "2012-12-07 20:16:00", 
+            "slug": "delivery-only"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Manufacture", 
+            "parent": 1, 
+            "created": "2012-12-07 20:15:05", 
+            "notes": "", 
+            "modified": "2012-12-07 20:15:14", 
+            "slug": "manufacture"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Restaurant", 
+            "parent": 1, 
+            "created": "2012-12-07 20:15:44", 
+            "notes": "", 
+            "modified": "2012-12-07 20:15:44", 
+            "slug": "restaurant"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Sports", 
+            "parent": 1, 
+            "created": "2012-12-07 20:16:10", 
+            "notes": "", 
+            "modified": "2012-12-07 20:16:10", 
+            "slug": "sports"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Italian", 
+            "parent": 4, 
+            "created": "2012-12-07 20:16:58", 
+            "notes": "", 
+            "modified": "2012-12-07 20:16:58", 
+            "slug": "italian"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Pizza", 
+            "parent": 9, 
+            "created": "2012-12-07 20:19:28", 
+            "notes": "", 
+            "modified": "2012-12-07 20:19:28", 
+            "slug": "pizza"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Pizza", 
+            "parent": 6, 
+            "created": "2012-12-07 20:17:58", 
+            "notes": "", 
+            "modified": "2012-12-07 20:17:58", 
+            "slug": "pizza"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Pizza", 
+            "parent": 8, 
+            "created": "2012-12-07 20:18:08", 
+            "notes": "", 
+            "modified": "2012-12-07 20:18:08", 
+            "slug": "pizza"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Pizza", 
+            "parent": 7, 
+            "created": "2012-12-07 20:19:09", 
+            "notes": "", 
+            "modified": "2012-12-07 20:19:09", 
+            "slug": "pizza"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Frozen", 
+            "parent": 2, 
+            "created": "2012-12-07 20:16:22", 
+            "notes": "", 
+            "modified": "2012-12-07 20:16:22", 
+            "slug": "frozen"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Italian", 
+            "parent": 3, 
+            "created": "2012-12-07 20:16:37", 
+            "notes": "", 
+            "modified": "2012-12-07 20:16:37", 
+            "slug": "italian"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Eating contest", 
+            "parent": 5, 
+            "created": "2012-12-07 20:17:34", 
+            "notes": "", 
+            "modified": "2012-12-07 20:17:34", 
+            "slug": "eating-contest"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "purr.category", 
+        "fields": {
+            "name": "Business", 
+            "parent": null, 
+            "created": "2012-12-07 20:14:39", 
+            "notes": "", 
+            "modified": "2012-12-07 20:14:39", 
+            "slug": "business"
+        }
+    }
+]
