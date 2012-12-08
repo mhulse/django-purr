@@ -15,11 +15,11 @@
 ......................................
 ```
 
+### Testing a solution to read unlimited categories from a URL.
+
 ---
 
-#### INFO
-
-Testing a solution to read unlimited categories from a URL.
+#### ABOUT
 
 The `Category` model was taken from [Satchmo Project](http://www.satchmoproject.com/), I've only added slight modifications.
 
@@ -73,7 +73,7 @@ urlpatterns = patterns('',
 
 ---
 
-#### ABOUT
+#### EXAMPLES
 
 Given this url:
 
