@@ -71,6 +71,14 @@ urlpatterns = patterns('',
 )
 ```
 
+Upgrade using:
+
+```bash
+$ sudo pip install --upgrade git+https://github.com/mhulse/django-purr.git
+```
+
+… and migrate your schema accordingly.
+
 ---
 
 #### EXAMPLES
