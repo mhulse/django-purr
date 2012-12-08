@@ -79,6 +79,12 @@ $ pip install --upgrade git+https://github.com/mhulse/django-purr.git
 
 … and migrate your schema accordingly.
 
+Uninstall using:
+
+```bash
+$ pip uninstall django-purr
+```
+
 ---
 
 #### EXAMPLES
