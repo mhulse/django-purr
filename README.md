@@ -95,7 +95,7 @@ Given this URI:
 http://site.com/purr/business/delivery-only/italian/pizza/
 ```
 
-… the output will be:
+… the output will simply be:
 
 ```json
 {
@@ -106,8 +106,10 @@ http://site.com/purr/business/delivery-only/italian/pizza/
 The code itterates over each sequential category `slug` and and will throw a `Page not found (404)` if the category structure doesn't exist; for example:
 
 ```html
-http://testprojects.registerguard.com/djcat/business/delivery-only/ddd/pizza/
+http://testprojects.registerguard.com/purr/business/delivery-only/ddd/pizza/
 ```
+
+… won't work because category slug `ddd` doesn't exist as a child to `/business/delivery-only/`.
 
 There's a tester script, found in the `scripts` folder, that you can run like so:
 
