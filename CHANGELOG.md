@@ -10,6 +10,6 @@
 ## v1.0.0
 #### December 8, 2012
 
-* Initial release on Github.
+* Initial release on GitHub.
 
 ---
